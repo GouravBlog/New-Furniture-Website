@@ -1,0 +1,587 @@
+@media only screen and (max-width: 300px){
+ 
+  /* header sectionc css */
+  .nav1 {
+    flex-direction: column;
+    position: relative;
+  }
+  .left span {
+    margin-left: 18px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .nav2 h1 {
+    font-size: 18px;
+  }
+  #navigation {
+    padding: 10px 25px;
+  }
+  #date{
+    margin-left: 15%;
+    display: none;
+  }
+  #navigation ul {
+    position: absolute;
+    top: 28%;
+    flex-direction: column;
+    left: -255px;
+  }
+  
+  #navigation ul a:hover {
+    border-radius: 10px;
+    padding: 5px;
+  }
+  #navigation i.fa-bars{
+    display: block;
+    color: blanchedalmond;
+  }
+  #navigation ul li a i.fa-xmark{
+    margin-left: 90%;
+    display: block;
+  }
+ #navigation ul li {
+   text-align: center;
+  border-bottom: 1px solid whitesmoke;
+  width: 100%;
+ }
+  #navigation ul li a {
+    display:block;
+    padding: 20px 2px;
+    font-size: 12px;
+   
+  }
+  #navigation ul {
+    background-color: goldenrod;
+    width: 255px;
+    margin-left: 0%;
+    
+  }
+  #navigation ul li {
+    display: block;
+    margin-left: 0px;
+  }
+
+  /* home section css */
+  #home {
+    height: 45vh;
+  }
+  .home-text {
+    padding: 30px;
+  }
+  .home-text h1 {
+    font-size: 27px;
+  }
+  .home-text p {
+    font-size: 16px;
+  }
+  #btn {
+    margin: 5px 10px;
+    font-size: 13px;
+  }
+
+  /* service section css */
+  #services{
+    padding-bottom: 23px;
+    margin-bottom: 23px;
+  }
+  .service-text h2 {
+    font-size: 20px;
+  }
+  .card-container {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding: 0px 8px;
+  }
+  .card-container2 {
+    flex-direction: column;
+    align-content: center;
+  }
+  .card-container .card {
+    flex-basis: 40%;
+    padding: 0px 10px;
+  }
+
+  /* client section css */
+  .client-img img {
+    width: 100px;
+    height: auto;
+  }
+
+  /* about section css */
+  .about {
+    flex-direction: column;
+  }
+  #about::before {
+    content: "";
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 20%,
+        rgba(255, 255, 255, 0.2)
+      ),
+      url(../Images/contact.jpg) no-repeat center center/contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+  }
+  .about-left input,
+  textarea {
+    width: 80%;
+  }
+  .about-right iframe {
+    height: 150px;
+    width: 200px;
+    margin-left: 20px;
+  }
+  .about-btn {
+    margin-bottom: 20px;
+  }
+
+  /* testimonial section css */
+  #testimonial-div{
+    flex-direction: column;
+  }
+  #card{
+    width: 210px;
+    border-radius: 10px 50px 15px;
+  } 
+  .feedback strong{
+    margin: 5px 20%;
+  }
+  .feedback span{
+    margin: 5px 28%;
+ }
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) and (min-width:300px){
+
+  /* header section css */
+  .nav1 {
+    flex-direction: column;
+    position: relative;
+  }
+  .left span {
+    margin-left: 18px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .nav2 h1 {
+    font-size: 18px;
+  }
+  #navigation {
+    padding: 10px 25px;
+  }
+  #date{
+    margin-left: 30%;
+  }
+  #navigation ul {
+    position: absolute;
+    top: 28%;
+    flex-direction: column;
+    left: -255px;
+  }
+  
+  #navigation ul a:hover {
+    border-radius: 10px;
+    padding: 5px;
+  }
+  #navigation i.fa-bars{
+    display: block;
+    color: blanchedalmond;
+  }
+  #navigation ul li a i.fa-xmark{
+    margin-left: 90%;
+    display: block;
+  }
+ #navigation ul li {
+   text-align: center;
+  border-bottom: 1px solid whitesmoke;
+  width: 100%;
+ }
+  #navigation ul li a {
+    display:block;
+    padding: 20px 2px;
+    font-size: 12px;
+   
+  }
+  #navigation ul {
+    background-color: goldenrod;
+    width: 255px;
+    margin-left: 0%;
+    
+  }
+  #navigation ul li {
+    display: block;
+    margin-left: 0px;
+  }
+
+  /* home section css */
+  #home {
+    height: 40vh;
+  }
+  .home-text {
+    padding: 30px;
+  }
+  .home-text h1 {
+    font-size: 27px;
+  }
+  .home-text p {
+    font-size: 16px;
+  }
+  #btn {
+    margin: 5px 10px;
+    font-size: 13px;
+  }
+
+  /* services section css */
+  #services{
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+  }
+  .service-text h2 {
+    font-size: 20px;
+  }
+  .card-container {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding: 0px 8px;
+  }
+  .card-container2 {
+    flex-direction: column;
+    align-content: center;
+  }
+  .card-container .card {
+    flex-basis: 40%;
+    padding: 0px 10px;
+  }
+  .client-img img {
+    width: 100px;
+    height: auto;
+  }
+
+  /* about section css */
+  .about {
+    flex-direction: column;
+  }
+  #about::before {
+    content: "";
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 20%,
+        rgba(255, 255, 255, 0.2)
+      ),
+      url(../Images/contact.jpg) no-repeat center center/contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+  }
+  .about-left input,
+  textarea {
+    width: 80%;
+  }
+  .about-right iframe {
+    height: 150px;
+    width: 200px;
+    margin-left: 20px;
+  }
+  .about-btn {
+    margin-bottom: 20px;
+  }
+
+  /* testimonial section css */
+  #testimonial-div{
+    flex-direction: column;
+  }
+  #card{
+    width: 280px;
+    border-radius: 10px 50px 15px;
+  } 
+  .feedback strong{
+    margin: 5px 30%;
+  }
+  .feedback span{
+    margin: 5px 32%;
+ }
+}
+
+@media only screen and (max-width: 950px) and (min-width: 600px) {
+
+  /* header section css */
+  .nav1 {
+    padding: 10px 0px;
+    margin: 10px;
+  }
+  .left {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  #navigation ul {
+    font-size: 25px;
+  }
+  #navigation ul {
+    position: absolute;
+    top: 20%;
+    flex-direction: column;
+    left: -255px;
+  }
+  #navigation i.fa-bars{
+    display: block;
+    color: blanchedalmond;
+    font-size: 30px;
+  }
+  #navigation ul li a i.fa-xmark{
+    margin-left: 90%;
+    display: block;
+  }
+ #navigation ul li {
+   text-align: center;
+  border-bottom: 1px solid whitesmoke;
+  width: 100%;
+ }
+  #navigation ul li a {
+    display:block;
+    padding: 20px 2px;
+    font-size: 20px;
+   
+  }
+  #navigation ul {
+    background-color: goldenrod;
+    width: 255px;
+    margin-left: 0%;
+    
+  }
+  #navigation ul li {
+    display: block;
+    margin-left: 0px;
+  }
+  .nav2 h1 {
+    font-size: 50px;
+  }
+  #date{
+    margin-left: 30%;
+    font-size: 25px;
+    padding: 12px;
+  }
+  
+  /* home section css */
+  #home {
+    height: 45vh;
+  }
+  .home-text {
+    padding: 100px;
+  }
+  .home-text h1 {
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .home-text p {
+    font-size: 20px;
+  }
+  #btn {
+    margin: 8px 100px;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 50px;
+  }
+
+  /* testimonial section css */
+  .feedback strong{
+    margin: 5px 30%;
+  }
+  .feedback span{
+    margin: 5px 30%;
+ }
+}
+
+
+@media only screen and (max-width: 1100px) and (min-width: 950px) {
+
+  /* header section css */
+  .nav1{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .right i {
+    font-size: 30px;
+  }
+  .nav2 h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 15px 0px;
+  }
+  /* #navigation ul {
+    margin-left: 5px;
+    padding-left: 0px;
+  }
+  #navigation ul a{
+    font-size: 20px;
+  } */
+  #navigation ul {
+    position: absolute;
+    top: 30%;
+    flex-direction: column;
+    left: -255px;
+    background-color: goldenrod;
+  }
+  #navigation i.fa-bars{
+    display: block;
+    color: blanchedalmond;
+    font-size: 30px;
+  }
+  #navigation ul li a i.fa-xmark{
+    margin-left: 90%;
+    display: block;
+  }
+ #navigation ul li {
+   text-align: center;
+  border-bottom: 1px solid whitesmoke;
+  width: 100%;
+ }
+  #navigation ul li a {
+    display:block;
+    padding: 20px 2px;
+    font-size: 20px;
+   
+  }
+  #navigation ul li {
+    display: block;
+    margin-left: 0px;
+  }
+  .nav2 h1 {
+    font-size: 50px;
+  }
+  #date{
+    margin-left: 30%;
+    font-size: 25px;
+    padding: 12px;
+  }
+
+  /* home section css */
+  #home {
+    height: 85vh;
+  }
+  .home-text {
+    padding: 120px 100px;
+  }
+  .home-text h1 {
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .home-text p {
+    font-size: 25px;
+  }
+  #btn {
+    margin: 8px 100px;
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 50px;
+  }
+
+  /* testimonial section css */
+  .feedback strong{
+    margin: 5px 30%;
+  }
+  .feedback span{
+    margin: 5px 30%;
+ }
+}
+
+
+@media only screen and (max-width: 1300px) and (min-width: 1100px) {
+
+  /* header section css */
+  .nav1{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .right i {
+    font-size: 30px;
+  }
+  .nav2 h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 15px 0px;
+  }
+  
+  #navigation ul {
+    position: absolute;
+    top: 30%;
+    flex-direction: column;
+    left: -255px;
+    background-color: goldenrod;
+  }
+  #navigation i.fa-bars{
+    display: block;
+    color: blanchedalmond;
+    font-size: 30px;
+  }
+  #navigation ul li a i.fa-xmark{
+    margin-left: 90%;
+    display: block;
+  }
+ #navigation ul li {
+   text-align: center;
+  border-bottom: 1px solid whitesmoke;
+  width: 100%;
+ }
+  #navigation ul li a {
+    display:block;
+    padding: 20px 2px;
+    font-size: 20px;
+   
+  }
+  #navigation ul li {
+    display: block;
+    margin-left: 0px;
+  }
+  .nav2 h1 {
+    font-size: 50px;
+  }
+  #date{
+    margin-left: 30%;
+    font-size: 25px;
+    padding: 12px;
+  }
+  /* home section css */
+  #home {
+    height: 75vh;
+  }
+  .home-text {
+    padding: 150px 100px;
+  }
+  .home-text h1 {
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .home-text p {
+    font-size: 25px;
+  }
+  #btn {
+    margin: 8px 100px;
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 50px;
+  }
+
+  /* testimonial section css */
+  .feedback strong{
+    margin: 5px 30%;
+  }
+  .feedback span{
+    margin: 5px 30%;
+ }
+}
